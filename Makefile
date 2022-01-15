@@ -1,4 +1,4 @@
-CC=g++
+CC=g++ -f openmp
 #g++ -std=c++11 -O2 -mavx2 -c classify.cpp 
 CFLAGS=-std=c++11 -O2
 
