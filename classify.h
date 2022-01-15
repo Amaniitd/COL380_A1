@@ -13,7 +13,7 @@ class Ranges;
 Data classify(Data &D, const Ranges &R, unsigned int numt);
 
 class alignas(32) Counter
-{  // Aligned allocation per counter. Is that enough?
+{ // Aligned allocation per counter. Is that enough?
    // Keeps per-thread subcount.
 public:
    Counter(unsigned int num = MAXTHREADS)
